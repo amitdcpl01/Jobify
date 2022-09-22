@@ -1,12 +1,5 @@
-import styled from 'styled-components';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import { Dashboard, Register, Landing, Error } from "./pages";
-
-const Button = styled.button`
-background: red;
-color: white;
-font-size:1rem; 
-`
 
 function App() {
   return (
